@@ -6,7 +6,7 @@ interface IProps {
   type: string;
   icon: ReactNode;
   title:string;
-  description: string;
+  description: ReactNode;
 }
 
 const Alert = ({type = "alert-danger", icon, title, description}:IProps) => {
